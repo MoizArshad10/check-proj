@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="./FAQ.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Document</title>
+
+  <style>
+    .dropdown:hover .dropdown-menu {
+      display: block;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <div class="spinner-wrapper">
+
+    <div class="spinner-border text-primary" role="status">
+      <span class="visually-hidden">Loading...</span>
+    </div>
+
+  </div>
+
+  <!-- Navbar Start -->
+
+  <nav class="navbar navbar-expand-lg navbar-dark p-3" id="nav">
+    <div class="container-fluid">
+      
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="Navbar.html">HOME<span></span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="About Us.html">ABOUT US<span></span></a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link active" href="Gallery.html">GALLERY<span></span></a>
+          </li>
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="Paintings.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              PAINTINGS
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown" id="nav-drop">
+              <li><a class="dropdown-item" href="./Classic Paintings.html">CLASSIC PAINTINGS</a></li>
+              <li><a class="dropdown-item" href="./Surface Paintings.html">SURFACE PAINTINGS</a></li>
+              <!-- <li><hr class="dropdown-divider"></li> -->
+              <li><a class="dropdown-item" href="./Color Paintings.html">COLOR PAINTINGS</a></li>
+            </ul>
+            
+          </ul>
+          
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <a href="Navbar.html"><img id="logo" src="pics/Galleria Logo.png" alt="" class="img-fluid"></a>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="Artist.html">ARTIST<span></span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="Best Seller.html">BEST SELLERS<span></span></a>
+            </li>
+  
+            <li class="nav-item">
+              <a class="nav-link active" href="Contact.html">CONTACT US<span></span></a>
+            </li>
+  
+            <li class="nav-item" id="faqs">
+              <a class="nav-link active" href="FAQ.html">FAQS<span></span></a>
+            </li>
+
+                                 
+          </ul>
+          <button type="button" class="btn btn-dark position-relative ps-1">
+            <a href="Paintings.html"><i class="fa-solid fa-cart-shopping"></i></a>
+            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-success">
+              10+
+              <span class="visually-hidden">unread messages</span>
+            </span>
+          </button>
+
+          <button type="button" class="btn btn-dark position-relative ms-5 ps-1">
+            <a href="https://Facebook.com"><i class="fa-brands fa-facebook"></i></a>
+            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-info">
+              20+
+              <span class="visually-hidden">unread messages</span>
+            </span>
+          </button>
+      </div>
+          
+      </div>
+    </div>
+  </nav>
+  
+  <!-- Navbar End -->
+
+  <h1 class="text-center mt-5 display-4">FAQs</h1>
+  <hr id="line">
+
+  <!-- Accordian -->
+
+  <div class="accordion accordion-flush" id="accordionFlushExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="flush-headingOne">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+          How long Galleria Painting been in business?
+        </button>
+      </h2>
+      <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+        data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body" id="text">Galleria Painting has been in business since 2000. It was incorporated in
+          2004.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="flush-headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+          How long will it take to ship my artwork?
+        </button>
+      </h2>
+      <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+        data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body" id="text">For original artwork, please expect 1 - 6 weeks for delivery, depending on
+          artwork
+          size, weight, and destination. For fine art prints, please allow three weeks business days for production and
+          shipping. Once your order is complete, you will be emailed the shipping details to track your order.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="flush-headingThree">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+          What if my order arrives damaged?
+        </button>
+      </h2>
+      <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+        data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body" id="text">In the event that your order arrives damaged, please notify us within 3
+          days of
+          delivery. Providing photos is most helpful with insurance claims. We'll work quickly to replace your order.
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="flush-headingFour">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+          Does my artwork arrive ready to hang on the wall?
+        </button>
+      </h2>
+      <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
+        data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body" id="text">Yes - all artwork will arrive wired or with the appropriate installation
+          hardware,
+          depending on the artist's preference for how the work should be mounted.
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="flush-headingFive">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+          Where are your paintings available?
+        </button>
+      </h2>
+      <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive"
+        data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body" id="text">Check out the “Gallery Links” section of our page to see where our work is
+          hanging/available. If you can't find info about a specific piece, feel free to email.
+        </div>
+      </div>
+    </div>
+
+
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="flush-headingSix">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+          Do you teach workshops?
+        </button>
+      </h2>
+      <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix"
+        data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body" id="text">We don't have any planned at the moment, but feel free to subscribe to our
+          mailing list and you'll be the first to know if we schedule any workshops!
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+
+  <!-- Accordian End -->
+
+  <!-- Footer Start -->
+  
+  <footer class="bd-footer py-1 mt-5 text-white" id="ft1">
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-lg-3 mb-3">
+          <a class="d-inline-flex align-items-center mb-2 link-dark text-decoration-none" href="Navbar.html" aria-label="Bootstrap">
+            <img src="pics/Galleria Logo.png" alt="" class="img-fluid">
+            <!-- <span class="fs-5 text-white">GALLERIA</span> -->
+          </a>
+          
+          <p>
+            DHA, PHASE V <br>
+            Khayaban e Shabaz, Karachi<br><br>
+            <strong>Phone:</strong> +92 345 55488 55<br>
+            <strong>Email:</strong> info@example.com<br>
+          </p>
+          
+        </div>
+        <div class="col-6 col-lg-2 offset-lg-1 mb-3">
+          <h5>OUR WEBSITE</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2 text-white"><a href="Navbar.html"class="text-white">Home</a></li>
+            <li class="mb-2 text-white"><a href="About Us.html" class="text-white">About Us</a></li>
+            <li class="mb-2 text-white"><a href="Gallery.html"class="text-white">Gallery</a></li>
+            <li class="mb-2 text-white"><a href="Paintings.html"class="text-white">Paintings</a></li>
+            </ul>
+        </div>
+        <div class="col-6 col-lg-2 mb-3">
+          <h5>PAINTINGS</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2"><a href="Classic Paintings.html"class="text-white">Classic Paintings</a></li>
+            <li class="mb-2"><a href="Surface Paintings.html"class="text-white">Surface Paintings</a></li>
+            <li class="mb-2"><a href="Color Paintings.html"class="text-white">Color Paintings</a></li>
+            <li class="mb-2"><a href="Best Seller.html"class="text-white">Best Sellers</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-lg-2 mb-3">
+          <h5>OUR SERVICES</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2 text-white"><a href="Artist.html" class="text-white">Artists</a></li>
+            <li class="mb-2 text-white"><a href="Contact.html" class="text-white">Contact Us</a></li>
+            <li class="mb-2 text-white"><a href="FAQ.html" class="text-white">FAQs</a></li>
+            <li class="mb-2 text-white"><a href="Contact.html" class="text-white">Feedback</a></li>
+          </ul>
+          
+        </div>
+      </div>
+    </div>
+    <hr class="w-75 mx-auto">
+    <h4 class="text-center fs-5">© Copyright GALLERIA. All Rights Reserved</h4>
+  </footer>
+
+<!-- Footer End -->
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+    <script src="./isotope.pkgd.min.js"></script>
+    <script src="./FAQ.js"></script>
+</body>
+
+</html>
